@@ -1,0 +1,32 @@
+*{
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position: sticky;
+    top: 0px;
+}
+header{
+    background-color: #212B36;
+    margin: 0px 0px 0px 0px;
+}
+ul{
+    list-style-type:none;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+ul li{
+    display:inline-block;
+    padding:10px;
+    margin:0px 5px;
+    color:#C4CDD5;
+    font-size:20px;
+    font-family:arial, cursive, sans-serif;
+    font-weight:700;
+    margin: 5px 20px;
+}
+li:hover{
+    color: white;
+}
